@@ -10,10 +10,11 @@
       "nodes": [
         {
           "location": {
-            "x": 0,
-            "y": 0
+            "x": 86.7713004484305,
+            "y": 171.52466367713004
           },
           "nodeIndex": "Strava",
+          "nodeLineageTag": "d56a7c63-f0ef-41fb-8ff7-35b820deb0d8",
           "size": {
             "height": 300,
             "width": 234
@@ -22,8 +23,8 @@
         },
         {
           "location": {
-            "x": 289.04484304932737,
-            "y": 33.856502242152473
+            "x": 674.4708520179372,
+            "y": 0
           },
           "nodeIndex": "DateSlicer",
           "nodeLineageTag": "6c92902f-e382-4503-9955-509d30f2f46d",
@@ -35,10 +36,11 @@
         },
         {
           "location": {
-            "x": 568,
-            "y": 50
+            "x": 953.42600896860984,
+            "y": 0
           },
           "nodeIndex": "TableOfMeasures",
+          "nodeLineageTag": "7f6352a2-6a1c-42ff-b11f-417ffc03db32",
           "size": {
             "height": 200,
             "width": 234
@@ -47,8 +49,8 @@
         },
         {
           "location": {
-            "x": 358.61434977578477,
-            "y": 310.31390134529153
+            "x": 447.40358744394626,
+            "y": 286.09865470852026
           },
           "nodeIndex": "NameAndTime",
           "nodeLineageTag": "88b48ea5-cf62-492a-97f0-a23b527c5b24",
@@ -60,8 +62,8 @@
         },
         {
           "location": {
-            "x": 0,
-            "y": 456.61434977578466
+            "x": 118.04932735426009,
+            "y": 531.27802690582951
           },
           "nodeIndex": "TypeOfTraining",
           "nodeLineageTag": "10a10d8d-1965-498e-9418-02120598a010",
@@ -70,6 +72,18 @@
             "width": 234
           },
           "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 1150.6547085201794,
+            "y": 265.63901345291475
+          },
+          "nodeIndex": "UniqueMonthAndYear",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
         }
       ],
       "name": "All tables",
